@@ -1,3 +1,7 @@
+.grey {
+    color: #b8b8b8;
+}
+
 span {
     color: #ac0101;
 }
@@ -132,9 +136,9 @@ text-decoration: underline;
     top: 47px;
     z-index: 1;
     background-color: #930202;
-    width: 161px;
+    width: 244px;
     left: 0;
-    height: 84px;
+    height: 206px;
     padding-top: 14px;
 }
 .catalog_href:hover {
@@ -391,4 +395,39 @@ color: black;
 .menu .container-fluid:nth-child(1) {
     padding: 0 !important;
 }
+.catalog_gas .col-lg-4:nth-child(1) p {
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+}
 
+.catalog_gas .col-lg-4:nth-child(1) p img {
+    vertical-align: unset;
+}
+
+.catalog_gas .container:nth-child(2) .col-lg-6 p {
+    font-size: 29px;
+    font-weight: bold;
+}
+.catalog_gas .description_gas p {
+font-size: 14px;
+font-family: Roboto ,sans-serif;
+}
+.catalog_gas .rooftop_gas p {
+    font-family: Panton, sans-serif;
+}
+
+.font-roboto {
+    font-family: Roboto, sans-serif;
+}
+.choice .col-lg-4 .col-lg-9 h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.choice .col-lg-4 .col-lg-9 p {
+    font-size: 13px;
+    font-weight: bold;
+}
+.choice .col-lg-4 .col-lg-3 p {
+    font-size: 13px;
+    padding-top: 1px;
+}
